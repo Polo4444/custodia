@@ -1,0 +1,7 @@
+S3:
+  UserName: "testing-key"
+  AccessKeyID: "lERf4ztdxokKCtiS2AZa"
+  SecretAccessKey: "tEV8c55Z7yJac96vBibK8SAcv0akuhVOuuSO2ZhC"
+  AwsEndPoint: "https://h7k5.par.idrivee2-46.com"
+  AwsBucket: "testing"
+

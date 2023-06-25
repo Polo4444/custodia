@@ -1,0 +1,26 @@
+# General configs
+ProjectName: "S3 Monitoring"
+Environment: "development"
+HTTPPort: "8080"  # HTTP port to listen on
+DefaultLanguage: "en"
+AppLink: "http://localhost:8080"
+
+# MongoDB Settings
+MongoDBURI: "mongodb://localhost:27017"
+DBName: "custodia"
+DBConnectionRefreshTicker: "5m"  # 00h00m00s: Refresh connection to DB every X minutes
+
+# JWT Settings
+JWTSecret: "1c531156c5fcb7ee8d0ae469a563bb54c5ab8ddeb313e7bde2ba8bf39902fef7"
+JWTTokenDuration: "1h"  # 00h00m00s / 2weeks
+
+# Default User Settings
+DefaultUser:
+  FirstName: "Administrator"
+  MiddleName: "John"
+  LastName: "Doe"
+  Email: "admin@custodia.dev"
+  Password: "H®8LóÙPuû#§çÑXÎÎÈxíjMÉ<<¤RÐ>>åq³!K"
+
+# Debug Settings
+DebugMode: false  # Enable debug mode. Should be false in production
